@@ -61,7 +61,7 @@ def ping(u, semester_id):
         lession_id = d[1]
         teacher_id = d[2]
         data_1 = {
-            'semester.id': '163',
+            'semester.id': semester_id,
             'evaluateState': d[0],
             'evaluateId': ','.join(d[1:])
         }
