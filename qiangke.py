@@ -109,12 +109,10 @@ if __name__ == '__main__':
             # d = qiangKe(u, portB, 303462, '科学技术报告论文写作')
             # e = qiangKe(u, portB, 303152, '数学物理建模')
 
-            # if d == -1:
-            #     os.system('python3 qiangke.py')
+            
             pass
         except Exception as e:
-            # print(e)
-            # os.system('python3 qiangke.py')
+            
             pass
 
 
