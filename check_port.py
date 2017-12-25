@@ -56,8 +56,8 @@ if __name__ == '__main__':
             elif len(r.text) > 2350:
                 f.write((str(port) + '      未开放').encode('utf-8'))
                 f.write('\r\n'.encode('utf-8'))
-                print(str(port) + '      未开放')
+                print(str(port) + '      未开放', end='\r')
             else:
-                print(str(port) + '  失败')
+                print(str(port) + '  失败', end='\r')
             port = port + 1
     print(d)
