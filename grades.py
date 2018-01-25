@@ -1,11 +1,11 @@
 import re
 import time
 import smtplib
-import datetime
 import requests
+from datetime import datetime
 from email.mime.text import MIMEText
 from bs4 import BeautifulSoup
-# testetstetssssss
+
 index = 'http://idas.uestc.edu.cn/authserver/login?service=http://portal.uestc.edu.cn/index.portal'
 pingjiao_1 = 'http://eams.uestc.edu.cn/eams/evaluateStd!search.action'
 pingjiao_2 = 'http://eams.uestc.edu.cn/eams/evaluateStd!loadQuestionnaire.action'
@@ -121,7 +121,9 @@ def main():
         if orgin != present:
             to_email(Text)
             orgin = present
+        print(datetime.now())
         time.sleep(3600)
+
 
 if __name__ == '__main__':
     main()
