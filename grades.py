@@ -4,7 +4,7 @@ import smtplib
 import requests
 from email.mime.text import MIMEText
 from bs4 import BeautifulSoup
-
+# testetstetssssss
 index = 'http://idas.uestc.edu.cn/authserver/login?service=http://portal.uestc.edu.cn/index.portal'
 pingjiao_1 = 'http://eams.uestc.edu.cn/eams/evaluateStd!search.action'
 pingjiao_2 = 'http://eams.uestc.edu.cn/eams/evaluateStd!loadQuestionnaire.action'
